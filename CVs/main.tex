@@ -1,0 +1,130 @@
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+% ModernCV themes
+\moderncvstyle{classic} % Options: 'casual' (default), 'classic', 'oldstyle', 'banking'
+\moderncvcolor{blue} % Options: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey', 'black'
+
+% Character encoding
+\usepackage{fontawesome5} % For icons like GitHub, LinkedIn, etc.
+\usepackage{academicons} % For academic icons like ORCID, Google Scholar
+
+% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3cm} % Adjust the width of the hints column
+
+% Personal data
+\name{Alex}{Chen}
+\title{PhD Candidate in Computer Science}
+\address{123 Quantum Leap Way}{Palo Alto, CA 94301}{USA}
+\phone[mobile]{+1 (555) 123-4567}
+\email{alex.chen.research@email.com}
+\homepage{alexchenresearch.com} % Optional
+\social[linkedin]{alexchen-phd} % Optional
+\social[github]{alexchen-code} % Optional
+\extrainfo{\aiOrcid{0000-0000-0000-0000} \quad \aiGoogleScholar{XYZ123ABC}} % Optional
+
+% Optional: If you want to add a quote or a tagline
+%\quote{"Striving to advance the frontiers of AI through innovative research."}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Education}
+\cventry{2022--Present}{PhD in Computer Science}{Stanford University}{Stanford, CA, USA}{}{Expected Graduation: May 2026. Advisor: Prof. Evelyn Reed. Specialization: Machine Learning, Natural Language Processing.}
+\cventry{2020--2022}{M.S. in Computer Science}{Stanford University}{Stanford, CA, USA}{}{\textit{Thesis: "Advancements in Few-Shot Learning for Specialized Domains"}}
+\cventry{2016--2020}{B.S. in Computer Science}{University of California, Berkeley}{Berkeley, CA, USA}{}{\textit{Summa Cum Laude, Minor in Statistics}}
+
+\section{Awards and Honors}
+\cvitem{2023}{[COMPANY] PhD Fellowship (Fictive)}
+\cvitem{2022}{Stanford Graduate Fellowship}
+\cvitem{2020}{Outstanding Undergraduate Researcher Award, UC Berkeley}
+\cvitem{2019}{Dean's High Honors List (Multiple Semesters), UC Berkeley}
+\cvitem{2018}{ACM ICPC Regional Competitor}
+
+\section{Academic Research Experiences}
+\cventry{Summer 2024}{Student Researcher (Anticipated)}{[COMPANY] Research}{Mountain View, CA (or Remote)}{}{Working with [COMPANY] research scientists on open-ended exploratory projects in advanced machine learning algorithms and their applications.}
+\cventry{2022--Present}{Graduate Research Assistant}{Stanford AI Lab (SAIL)}{Stanford, CA, USA}{}{
+\begin{itemize}
+    \item Conducting research on robust and interpretable Natural Language Understanding models, focusing on cross-lingual transfer learning and commonsense reasoning.
+    \item Developing novel deep learning architectures for efficient information extraction from large-scale unstructured text data.
+    \item Collaborating with a team of 5 researchers, contributing to algorithm design, experimental setup, and manuscript preparation.
+    \item Mentored junior PhD students in experimental design and paper writing.
+\end{itemize}}
+\cventry{2021--2022}{Master's Thesis Researcher}{Stanford NLP Group}{Stanford, CA, USA}{}{
+\begin{itemize}
+    \item Investigated and developed few-shot learning techniques for text classification in specialized domains with limited labeled data.
+    \item Implemented and benchmarked various meta-learning algorithms, achieving state-of-the-art results on several internal datasets.
+\end{itemize}}
+\cventry{2019--2020}{Undergraduate Research Assistant}{Berkeley AI Research (BAIR) Lab}{Berkeley, CA, USA}{}{
+\begin{itemize}
+    \item Assisted Prof. Ben Carter with projects on adversarial attacks and defenses for computer vision models.
+    \item Contributed to the development of a new dataset for evaluating model robustness.
+\end{itemize}}
+
+\section{Publications}
+\cvitem{}{\textbf{Chen, A.}, Lee, S., \& Reed, E. (2024). "Cross-Lingual Alignment Strategies for Zero-Shot Commonsense Reasoning." \textit{Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)}. (To Appear)}
+\cvitem{}{\textbf{Chen, A.}, \& Reed, E. (2023). "Efficient Transformers for Low-Resource Language Understanding." \textit{Findings of Empirical Methods in Natural Language Processing (EMNLP)}. pp. 1234-1245.}
+\cvitem{}{Kim, J., \textbf{Chen, A.}, \& Davis, M. (2023). "Probing the Limits of Pre-trained Language Models in Scientific Literature." \textit{Workshop on Scholarly Document Processing, NeurIPS}.}
+\cvitem{}{\textbf{Chen, A.} (2022). "Advancements in Few-Shot Learning for Specialized Domains." \textit{Stanford University M.S. Thesis Archive}.}
+\cvitem{}{Carter, B., \textbf{Chen, A.}, \& Zhao, L. (2020). "A Benchmark for Evaluating Robustness of Object Detection Models to Synthetic Perturbations." \textit{arXiv preprint arXiv:2005.XXXXX}.}
+
+\section{Industry Experience}
+\cventry{Summer 2023}{Machine Learning Research Intern}{Leading AI Startup X}{Palo Alto, CA, USA}{}{
+\begin{itemize}
+    \item Designed and implemented a novel recommendation system using graph neural networks, resulting in a 15\% improvement in user engagement metrics.
+    \item Collaborated with software engineering teams to integrate the ML model into the production environment.
+    \item Presented research findings and model performance to senior leadership.
+\end{itemize}}
+
+\section{Internship Experience}
+\cventry{Summer 2019}{Software Engineering Intern}{Tech Solutions Inc.}{San Francisco, CA, USA}{}{
+\begin{itemize}
+    \item Developed and tested new features for a large-scale data analytics platform using Python and Java.
+    \item Participated in agile development sprints, code reviews, and system design discussions.
+    \item Gained experience with cloud computing platforms (AWS).
+\end{itemize}}
+
+\section{Teaching Experience}
+\cventry{Spring 2023}{Teaching Assistant}{CS224N: Natural Language Processing with Deep Learning}{Stanford University}{}{
+\begin{itemize}
+    \item Led weekly discussion sections for 30+ students, explaining complex concepts and guiding them through assignments.
+    \item Graded homework, quizzes, and exams, providing constructive feedback.
+    \item Held office hours and assisted students with project development.
+\end{itemize}}
+\cventry{Fall 2022}{Teaching Assistant}{CS109: Introduction to Probability for Computer Scientists}{Stanford University}{}{
+\begin{itemize}
+    \item Assisted in preparing course materials and grading assignments.
+    \item Conducted review sessions before midterms and final exams.
+\end{itemize}}
+
+\section{Speaker Experience}
+\cventry{2023}{Presenter, "Efficient Transformers for Low-Resource Language Understanding"}{EMNLP 2023 Conference, Singapore}{}{}{}
+\cventry{2023}{Guest Lecturer, "Introduction to Meta-Learning"}{Stanford CS330: Deep Multi-Task and Meta Learning}{}{}{}
+\cventry{2022}{Poster Presenter, "Few-Shot Learning for Medical Text Classification"}{Bay Area NLP Meetup}{}{}{}
+
+\section{Academic Service}
+\cventry{2023--Present}{Reviewer}{ACL, EMNLP, NeurIPS, ICML Conferences}{}{}{}
+\cventry{2023}{Volunteer}{NeurIPS 2023 Conference, New Orleans}{}{}{}
+\cventry{2022--2023}{PhD Admissions Committee Student Representative}{Stanford Computer Science Department}{}{}{}
+\cventry{2021}{Organizer}{Stanford AI Lab Seminar Series}{}{}{}
+
+\section{DEI Panels}
+\cventry{2024}{Panelist}{"Navigating Academia as an Underrepresented PhD Student"}{Stanford School of Engineering DEI Summit}{}{}{}
+\cventry{2023}{Participant}{"Building Inclusive Research Environments" Workshop}{Stanford University}{}{}{}
+
+\section{News and Other Coverage}
+\cventry{2023}{"Stanford Researchers Tackle Language Barriers in AI"}{Stanford Engineering News (Fictive article mentioning our EMNLP paper)}{}{}{}
+\cventry{2020}{"Berkeley Undergrad Shines in AI Robustness Research"}{The Daily Californian (Fictive article about BAIR Lab project)}{}{}{}
+
+\section{Other Activities}
+\cventry{2022--Present}{Member}{Stanford Alpine Club, Stanford Cycling Team}{}{}{}
+\cventry{2016--2020}{Volunteer Tutor}{Berkeley High School (Mathematics and Computer Science)}{}{}{}
+\cvitem{}{Proficient in English (Fluent), Mandarin (Conversational)}
+\cvitem{}{Programming Languages: Python (Expert), Java (Proficient), C++ (Intermediate), JavaScript (Basic)}
+\cvitem{}{Frameworks/Libraries: TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Hugging Face Transformers}
+\cvitem{}{Developer Tools: Git, Docker, SLURM, AWS, GCP}
+
+\closesection{} % Ensure the last section is properly closed
+
+\end{document}
