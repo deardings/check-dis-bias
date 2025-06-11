@@ -1,5 +1,5 @@
 [project]
-name = "notebook"
+name = "masterseminar_accessability"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,8 +8,10 @@ dependencies = [
     "anthropic>=0.50.0",
     "dotenv>=0.9.9",
     "ipykernel>=6.29.5",
+    "matplotlib>=3.10.3",
     "nbconvert>=7.16.6",
     "numpy>=2.2.5",
     "openai>=1.76.2",
     "pandas>=2.2.3",
+    "rise>=5.7.1",
 ]
