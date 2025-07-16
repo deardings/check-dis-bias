@@ -1,6 +1,14 @@
 # Disability Bias in Open AI API Models
 
-I am wrtiting a paper on disability bias in recent OpenAI models (GPT4.1, that is). This repo holds the Jupyter notebook with the code used for my study. The code holds not only the prompts, but also the complete materials provided to the agent. My reference is a paper by [Glazko et al](https://dl.acm.org/doi/10.1145/3630106.3658933), written for FAccT Conference 2024.
+I am wrtiting a paper on disability bias in recent OpenAI models (GPT4.1, that is). This repo contains the paper itself, all data and prompts used in the experiment, the Jupyter notebook the experiment itself as well as the results.
+
+It holds three Jupyter notebooks:   
+* `cv_creation.ipynb` with a protocol of the creation a control curriculum vitae (CV) and 6 enhanced variants with references to disability.
+* `experimnet.ipynb` with the actual conduction of the experiment 
+The code holds not only the prompts, but also the complete materials provided to the agent. My reference is a paper by [Glazko et al](https://dl.acm.org/doi/10.1145/3630106.3658933), written for FAccT Conference 2024.
+* `charts.ipynb` used to create a chart for the paper.
+
+In the `results` folder you can also find a .csv-export with the results of 10x10 runs of the experiment using GPT-4.1. 
 
 ## Installation via `uv`
 
